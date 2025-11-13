@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Connect to the database
-conn = sqlite3.connect("healthcare_data.db")
+conn = sqlite3.connect("../healthcare_data.db")
 
 # 1️⃣ Preview first few rows
 print("\n🔹 Preview Data:")

@@ -2,10 +2,10 @@ import sqlite3
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("data/insurance.csv")
+df = pd.read_csv("../data/insurance.csv")
 
 # Connect to SQLite database
-conn = sqlite3.connect("healthcare_data.db")
+conn = sqlite3.connect("../healthcare_data.db")
 
 # Rename columns to fit our 'claims' theme
 df = df.rename(columns={
